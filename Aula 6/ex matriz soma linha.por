@@ -11,7 +11,7 @@ programa
 			leia(matriz[linha][coluna])
 
 			soma = soma + matriz[linha][coluna]
-			totalLinha = matriz[linha][linha]
+			totalLinha = matriz[coluna][coluna]
 		}
            escreva("Total da soma é: ", soma, "\n")
            soma =0
@@ -26,9 +26,9 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 365; 
+ * @POSICAO-CURSOR = 312; 
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
+ * @SIMBOLOS-INSPECIONADOS = {matriz, 6, 9, 6}-{soma, 6, 24, 4}-{coluna, 9, 15, 6};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */

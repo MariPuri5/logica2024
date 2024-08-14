@@ -3,7 +3,7 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro matriz [3][3],  soma=0
+		inteiro matriz [4][2],  soma=0
 
 		para(inteiro lin=0; lin < 3; lin++){
             para(inteiro col=0; col < 3; col++){
@@ -12,7 +12,7 @@ programa
 
            soma += matriz[col][lin]
 		}
-		escreva("O total da soma é:", soma,"\n")
+		escreva("\n O total da soma é:", soma,"\n\n")
 		soma=0
 		}
 
@@ -23,7 +23,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 338; 
+ * @POSICAO-CURSOR = 52; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = {matriz, 6, 10, 6}-{soma, 6, 26, 4};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
